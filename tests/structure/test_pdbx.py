@@ -58,6 +58,11 @@ def test_escape(string, looped):
 
     assert test_value == ref_value
 
+def test_embedded_quote()
+    """
+    Test whether values that have an embedded quote are properly escaped.
+    """
+    test_category = pdbx.CIFCategory.deserialize(
 
 @pytest.mark.parametrize(
     "format, path, model",
